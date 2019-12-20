@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <title>찍 자</title>
+    <script src="func.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="headerContainer">
+        <div
+          id="logo"
+          onclick="(function(){
+            window.location.reload();
+          })()"
+        ></div>
+        <div id="searchBox">
+          <div id="searchIcon"></div>
+          <input
+            type="text"
+            placeholder="자연, 건축, 인물, 음식 중에 입력하세요"
+            id="mainInput"
+          />
+        </div>
+        <nav>
+          <div id="login">로그인</div>
+          <div id="myPage">마이페이지</div>
+          <div id="notice">공지사항</div>
+        </nav>
+      </div>
+    </header>
+    <section id="mainFrame"></section>
+    <script>
+      const main = document.getElementById(`mainFrame`);
+      const xhq = new XMLHttpRequest();
+      xhq.open(`get`, `main.html`);
+      xhq.send();
+      xhq.onload = () => {
+        main.innerHTML = xhq.response;
+      };
+    </script>
+    <div id="intro">
+      <div class="box">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <div id="loginPopupContainer">
+      <div id="loginPopup">
+        <div id="loginExitButton">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="inputBox">
+          <input type="text" placeholder="아이디 (ID)" id="inputId" />
+          <input
+            type="password"
+            placeholder="비밀번호 (PW)"
+            id="inputPassword"
+          />
+        </div>
+        <div class="submitBox">
+          <div id="submitButton">로그인</div>
+          <div class="etcBox">
+            <a href="#">아이디 찾기</a>
+            <a href="#">비밀번호 찾기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      footer
+    </footer>
+  </body>
+</html>

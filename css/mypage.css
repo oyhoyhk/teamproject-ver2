@@ -1,0 +1,111 @@
+.mypage_container {
+  width: 80%;
+  height: 88vh;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 12vh;
+  background: white;
+}
+
+#mypageList {
+  display: flex;
+  width: 100%;
+  height: 7vh;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#mypageList > li {
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  line-height: 7vh;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.liActive {
+  font-weight: bold;
+}
+#myInfoBox {
+  width: 25%;
+  height: 65vh;
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  background: lightsalmon;
+  display: flex;
+  flex-direction: column;
+}
+
+#dataSectionContainer {
+  width: 70%;
+  height: 80vh;
+  position: absolute;
+  left: 0;
+  top: 7vh;
+  overflow: auto;
+}
+
+#dataSection {
+  width: 100%;
+  padding-bottom: 10vh;
+}
+
+#upperBackground {
+  width: 100%;
+  height: 65%;
+  background-position: center -100px;
+}
+#lower {
+  width: 100%;
+  height: 35%;
+}
+#profilePic {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 125px);
+  top: calc(65% - 125px);
+  background-size: 100%;
+}
+#nickname {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  bottom: 6%;
+}
+#writeButton {
+  width: 50px;
+  height: 50px;
+  background: url("../img/pencil.png") no-repeat;
+  background-size: 50% 50%;
+  background-position: center center;
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+.commentList {
+  width: 90%;
+  margin-top: 30px;
+}
+.commentList .comment {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commentList .comment .detail {
+  padding-left: 30px;
+}
+.commentList .comment .date {
+  padding-right: 30px;
+}
+.commentList .comment:nth-of-type(even) {
+  background: #ddd;
+}

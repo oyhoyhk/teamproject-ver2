@@ -1,0 +1,170 @@
+[
+  {
+    "url": "img/z1.jpg",
+    "location": "경주 양동마을",
+    "area": "경상도",
+    "category": "자연"
+  },
+  {
+    "url": "img/z2.jpg",
+    "location": "곡성 기차마을",
+    "area": "전라도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z3.jpg",
+    "location": "군산 선유도",
+    "area": "전라도",
+    "category": "인물"
+  },
+  {
+    "url": "img/z4.jpg",
+    "location": "김제 지평선",
+    "area": "전라도",
+    "category": "음식"
+  },
+  {
+    "url": "img/z5.jpg",
+    "location": "남해 금산",
+    "area": "경상도",
+    "category": "자연"
+  },
+  {
+    "url": "img/z6.jpg",
+    "location": "단양 도담 상봉",
+    "area": "충청도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z7.jpg",
+    "location": "동해 추암 해변",
+    "area": "강원도",
+    "category": "자연"
+  },
+  {
+    "url": "img/z8.jpg",
+    "location": "무주 덕유산 향적봉",
+    "area": "전라도",
+    "category": "인물"
+  },
+  {
+    "url": "img/z9.jpg",
+    "location": "순천 낙안읍성",
+    "area": "전라도",
+    "category": "인물"
+  },
+  {
+    "url": "img/z10.jpg",
+    "location": "순천 순천만",
+    "area": "전라도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z11.jpg",
+    "location": "순천 선암사",
+    "area": "전라도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z12.jpg",
+    "location": "안동 하회마을",
+    "area": "경상도",
+    "category": "자연"
+  },
+  {
+    "url": "img/z13.jpg",
+    "location": "안동 도산서원",
+    "area": "경상도",
+    "category": "인물"
+  },
+  {
+    "url": "img/z14.jpg",
+    "location": "양평 두물머리",
+    "area": "경기도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z15.jpg",
+    "location": "여수 거문도",
+    "area": "전라도",
+    "category": "자연"
+  },
+  {
+    "url": "img/z16.jpg",
+    "location": "영덕 블루로드",
+    "area": "경상도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z17.jpg",
+    "location": "영월 동강",
+    "area": "강원도",
+    "category": "인물"
+  },
+  {
+    "url": "img/z18.jpg",
+    "location": "영천 별빛 마을",
+    "area": "경상도",
+    "category": "음식"
+  },
+  {
+    "url": "img/z19.jpg",
+    "location": "완도 청산도",
+    "area": "전라도",
+    "category": "음식"
+  },
+  {
+    "url": "img/z20.jpg",
+    "location": "강화도 장하리 갯벌",
+    "area": "경기도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z21.jpg",
+    "location": "정읍 내장산 내장사",
+    "area": "전라도",
+    "category": "음식"
+  },
+  {
+    "url": "img/z22.jpg",
+    "location": "제주 올레길",
+    "area": "제주도",
+    "category": "자연"
+  },
+  {
+    "url": "img/z23.jpg",
+    "location": "제주 우도",
+    "area": "제주도",
+    "category": "건축"
+  },
+  {
+    "url": "img/z24.jpg",
+    "location": "진도 운림 산방",
+    "area": "전라도",
+    "category": "인물"
+  },
+  {
+    "url": "img/z25.jpg",
+    "location": "포항 호미곶",
+    "area": "경상도",
+    "category": "음식"
+  },
+  {
+    "url": "img/z26.jpg",
+    "location": "함양 지리산 둘레길",
+    "area": "경상도",
+    "category": "인물"
+  },
+  {
+    "url": "img/z27.jpg",
+    "location": "함양 상림",
+    "area": "경상도",
+    "category": "음식"
+  },
+  {
+    "url": "img/z28.jpg",
+    "location": "합천 해인사",
+    "area": "경상도",
+    "category": "자연"
+  }
+]

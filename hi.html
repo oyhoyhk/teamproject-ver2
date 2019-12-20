@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      section {
+        width: 100%;
+        height: 100vh;
+        background: lightsalmon;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="mainFrame"></section>
+    <script>
+      const mF = document.getElementById(`mainFrame`);
+      const xhq = new XMLHttpRequest();
+      xhq.open(`get`, `notice.html`);
+      xhq.send();
+      xhq.onload = () => {
+        mF.innerHTML = xhq.response;
+        const table = document.getElementById(`table`);
+        const tbody = document.createElement(`tbody`);
+        const noticeXHQ = new XMLHttpRequest();
+        noticeXHQ.open(`get`, `js/notice.json`);
+        noticeXHQ.send();
+        noticeXHQ.onload = () => {
+          const data = JSON.parse(noticeXHQ.responseText);
+          console.log(data);
+          let a = "";
+          for (let i = 0; i < data.length; i++) {
+            a += `<tr>
+                  <td>${i + 1}</td>
+                  <td>${data[i].title}</td>
+                  <td>${data[i].date}</td>
+                  <td>${data[i].writer}</td>
+                </tr>`;
+          }
+          console.log(a);
+          tbody.innerHTML = a;
+        };
+
+        console.log(tbody.innerHTML);
+        table.append(tbody);
+      };
+    </script>
+  </body>
+</html>
